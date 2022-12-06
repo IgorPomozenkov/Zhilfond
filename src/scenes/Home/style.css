@@ -1,0 +1,231 @@
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #76787D;
+}
+
+.errorText {
+  color: red;
+}
+
+.errorField {
+  border: 1px solid red !important;
+}
+
+.home {
+  height: 575px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.sidebar {
+  overflow: auto;
+  width: 290px;
+  padding: 27px 20px;
+  background: #FDFDFD;
+}
+
+.sidebar__title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333333;
+}
+
+.sidebar__form {
+  max-width: 240px;
+  margin: 22px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sidebar__form .field {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1.5px solid #E9ECEF;
+  outline: none;
+  border-radius: 8px;
+  background: #FFFFFF;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #76787D;
+}
+
+.sidebar__results {
+  position: relative;
+  min-height: 374px;
+  margin-top: 10px;
+}
+
+.sidebar__results .loading {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.resultCards__item {
+  max-width: 240px;
+  min-height: 70px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+.resultCards__item:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.resultCards__item:hover .cardInfo {
+  background: #E0E0E0;
+}
+
+.resultCards__item .imageWrap {
+  border-right: 1px solid #E0E0E0;
+  width: 70px;
+  min-height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.resultCards__item .imageWrap img {
+  width: 30px;
+  height: 22px;
+}
+
+.resultCards__item .cardInfo {
+  width: 170px;
+  padding: 15px;
+  -webkit-transition: background-color .1s;
+  transition: background-color .1s;
+}
+
+.resultCards__item .cardInfo .name {
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #333333;
+}
+
+.resultCards__item .cardInfo .text {
+  word-wrap: break-word;
+}
+
+.resultCards__item .cardInfo_active {
+  background: #E0E0E0;
+}
+
+.content {
+  width: 975px;
+  height: inherit;
+  border-left: 1px solid #DEDEDD;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.selectUser {
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.userCard {
+  padding: 30px 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.userCard__photo {
+  width: 424px;
+  height: 286px;
+  border: 1px solid #E0E0E0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.userCard__photo .imageWrap img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.userCard__info {
+  max-width: 439px;
+}
+
+.userCard__info .userName, .userCard__info .aboutTitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.userCard__info .userData {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #333333;
+}
+
+.userCard__info .userData .text {
+  margin-left: 10px;
+}
+
+.userCard__info .aboutTitle {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  color: #333333;
+}
+
+.userCard__info .aboutUser {
+  max-width: inherit;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input,
+textarea,
+button,
+select,
+span,
+label,
+li,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: inherit;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #FFFFFF;
+}
+
+#root {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+main {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.container {
+  max-width: 1266px;
+  margin: 0 auto;
+}
+
+.headerInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 50px 0 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerInfo__heading {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #E31F24;
+}
+
+.headerInfo__userLink {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+}
+/*# sourceMappingURL=style.css.map */

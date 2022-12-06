@@ -1,0 +1,25 @@
+@import '../../styles/variables';
+
+.notFound {
+  position: relative;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .back {
+    position: absolute;
+    font-size: 160px;
+    color: #76787d14;
+    letter-spacing: 10px;
+    user-select: none;
+  }
+
+  .text {
+    position: relative;
+    font-size: 22px;
+    color: $titleColor;
+    letter-spacing: 1px;
+  }
+}
+
